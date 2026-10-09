@@ -1,0 +1,27 @@
+{
+    "$schema": "https://biomejs.dev/schemas/2.5.15/schema.json",
+    "formatter": {
+        "enabled": false
+    },
+    "linter": {
+        "enabled": false
+    },
+    "assist": {
+        "enabled": false
+    },
+    "files": {
+        "includes": [
+            "**",
+            "!**/node_modules",
+            "!**/.next",
+            "!**/dist",
+            "!**/build",
+            "!**/coverage",
+            "!**/.turbo",
+            "!**/.vercel",
+            "!**/.wrangler",
+            "!**/generated",
+            "!**/prisma"
+        ]
+    }
+}

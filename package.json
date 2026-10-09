@@ -11,6 +11,7 @@
     "vinext": "latest"
   },
   "devDependencies": {
+    "@biomejs/biome": "2.5.15",
     "@cloudflare/vite-plugin": "latest",
     "@tailwindcss/postcss": "latest",
     "@types/node": "^26.6.4",
